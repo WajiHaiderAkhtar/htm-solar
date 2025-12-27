@@ -12,9 +12,9 @@ interface AboutProps {
 
 const stats = [
   { label: 'Technical Mastery', value: '15+ Yrs', desc: 'Team Industry Exp' },
-  { label: 'Track Record', value: '20k kW', desc: 'Team Installation History' },
+  { label: 'Track Record', value: '20 MW', desc: 'Team Installation History' },
   { label: 'Bill Savings', value: '70%', desc: 'Max Reduction' },
-  { label: 'Payback', value: '5-7 Yrs', desc: 'Fast ROI' },
+  { label: 'Payback', value: '3-5 Yrs', desc: 'Fast ROI' },
 ];
 
 const installationSteps = [
