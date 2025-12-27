@@ -54,7 +54,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                 <span className="text-htm-gold font-mono text-xs tracking-[0.8em] uppercase mb-8 block drop-shadow-[0_0_8px_rgba(234,179,8,0.5)]">
                     Engineering Excellence • Grounded Expertise
                 </span>
-                <h1 className="text-6xl md:text-[10rem] font-display text-white mb-10 leading-[0.85] tracking-tighter w-full">
+                <h1 className="text-6xl md:text-[8rem] font-display text-white mb-10 leading-[0.85] tracking-tighter w-full">
                     Grown from <br/>
                     <span className="italic font-normal text-htm-gold drop-shadow-[0_0_20px_rgba(234,179,8,0.4)]">Mastery.</span>
                 </h1>
@@ -68,7 +68,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                      </div>
                      <div className="w-px h-16 bg-white/10 hidden md:block"></div>
                      <div className="flex flex-col items-center">
-                        <span className="text-white text-4xl md:text-6xl font-display mb-1 text-center">20,000 kW</span>
+                        <span className="text-white text-4xl md:text-6xl font-display mb-1 text-center">20 MW</span>
                         <span className="text-[10px] font-mono text-htm-gold uppercase tracking-widest text-center">Industry Track Record</span>
                      </div>
                 </div>
