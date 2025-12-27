@@ -71,7 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
             onClick={(e) => handleLinkClick(e, { href: `#${SectionId.HOME}`, isPage: false, label: 'Home' })}
             className="flex items-center gap-3 group cursor-pointer">
             <div className="w-10 h-10 rounded-full overflow-hidden bg-white border border-white/20 p-1 shadow-lg transition-transform duration-500 ease-in-out group-hover:scale-110">
-                <img src="logo.png" alt="HTM Solar Logo" className="w-full h-full object-contain" />
+                <img src="/logo.png" alt="HTM Solar Logo" className="w-full h-full object-contain" />
             </div>
             <span className={`text-xl font-bold tracking-tight text-white`}>
               HTM<span className="font-light text-htm-gold">Solar</span>
