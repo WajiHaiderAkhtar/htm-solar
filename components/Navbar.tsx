@@ -74,7 +74,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, onNavigate }) => {
                 <img src="/logo.png" alt="HTM Solar Logo" className="w-full h-full object-contain" />
             </div>
             <span className={`text-xl font-bold tracking-tight text-white`}>
-              HTM<span className="font-light text-htm-gold">Solar</span>
+              HTM&nbsp;<span className="font-light text-htm-gold">Solar</span>
             </span>
           </a>
 
