@@ -237,8 +237,8 @@ const SolarCalculator: React.FC = () => {
                                             <select 
                                                 className="w-full bg-transparent border-b border-gray-800 text-2xl font-display focus:border-htm-lightGreen outline-none transition-all duration-300 py-3 appearance-none cursor-pointer text-white focus:scale-[1.02] origin-left" 
                                                 value={state.location} 
-                                                onChange={(e) => setState({...state, location: e.target.value})}
-                                            >
+                                                onChange={(e) => setState({...state, location: e.target.value})}>
+                                            
                                                 {STATES_INDIA.map(s => <option key={s} value={s} className="bg-htm-charcoal">{s}</option>)}
                                             </select>
                                         </div>

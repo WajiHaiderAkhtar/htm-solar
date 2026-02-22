@@ -121,26 +121,26 @@ const Contact: React.FC = () => {
                         <div className="space-y-8 text-lg font-light">
                             <div className="flex items-start gap-4 group cursor-pointer hover:translate-x-2 transition-transform">
                                 <MapPin className="w-6 h-6 mt-1 text-htm-gold group-hover:scale-125 transition-transform" />
-                                <div><p className="font-bold mb-1">Our Office</p><p className="opacity-80">Alamnagar, Lucknow<br/>Uttar Pradesh, India</p></div>
+                                <div><p className="font-bold mb-1">Our Office</p><p className="opacity-80">Plot No. 4, Kahla-Complex, Dubagga, Lucknow<br/>Uttar Pradesh, India-226003</p></div>
                             </div>
                             <div className="flex items-start gap-4 group cursor-pointer hover:translate-x-2 transition-transform">
                                 <Phone className="w-6 h-6 mt-1 text-htm-gold group-hover:scale-125 transition-transform" />
                                 <div>
                                     <p className="font-bold mb-1">Phone</p>
-                                    <a href="tel:+918368813443" className="opacity-80 font-mono text-xl hover:text-htm-gold transition-colors block">+91 83688 13443</a>
+                                    <a href="tel:+918368813443" className="opacity-80 font-mono text-xl hover:text-htm-gold transition-colors block">+91 &nbsp;9624749697</a>
                                 </div>
                             </div>
                             <div className="flex items-start gap-4 group cursor-pointer hover:translate-x-2 transition-transform">
                                 <Mail className="w-6 h-6 mt-1 text-htm-gold group-hover:scale-125 transition-transform" />
                                 <div>
                                     <p className="font-bold mb-1">Email</p>
-                                    <a href="mailto:info@htmsolar.com" className="opacity-80 hover:text-htm-gold transition-colors block">info@htmsolar.com</a>
+                                    <a href="mailto:info@htmsolar.com" className="opacity-80 hover:text-htm-gold transition-colors block">support@htmsolar.com</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </RevealOnScroll>
-                <div className="mt-12 opacity-50 text-sm font-mono hidden lg:block">HTM SOLAR SOLUTIONS PVT LTD © {new Date().getFullYear()}</div>
+                <div className="mt-12 opacity-50 text-sm font-mono hidden lg:block">HTM SOLAR Private Limited © {new Date().getFullYear()}</div>
             </div>
             <RevealOnScroll delay={200} width="100%">
                 <div className="bg-white text-htm-dark p-8 md:p-12 rounded-none md:rounded-tl-[4rem] shadow-2xl relative overflow-hidden transition-shadow duration-500 hover:shadow-[0_0_50px_rgba(255,255,255,0.2)]">

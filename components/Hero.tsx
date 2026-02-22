@@ -93,19 +93,19 @@ const Hero: React.FC = () => {
             <div className="opacity-0 animate-fade-in-up mb-4 md:mb-6" style={{ animationDelay: '0.2s' }}>
                 <div className="inline-flex items-center gap-2 border-l-2 border-htm-gold pl-4">
                     <span className="text-htm-gold font-mono text-xs md:text-sm tracking-widest uppercase">
-                        Serving Pan India • Uttar Pradesh Focused
+                        Serving Pan India 
                     </span>
                 </div>
             </div>
             
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-display font-medium text-white leading-[0.85] opacity-0 animate-fade-in-up tracking-tighter mb-6 md:mb-8" style={{ animationDelay: '0.4s' }}>
-                Switch <br/>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-500">Solar.</span>
+                One Switch <br/>
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-500">Lifetime Savings.</span>
             </h1>
 
             <div className="flex flex-col md:flex-row md:items-start gap-12 md:gap-16 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
                 <p className="text-sm md:text-lg text-gray-300 max-w-sm leading-relaxed font-light border-l border-white/20 pl-6">
-                    Professional solar solutions for homes and industries. Backed by 15+ years of engineering mastery with commissions across the nation.
+                    Professional solar solutions for industries and homes. Backed by 15+ years of engineering mastery with commissions across the nation.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4">

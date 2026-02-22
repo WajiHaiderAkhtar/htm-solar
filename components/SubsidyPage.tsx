@@ -108,8 +108,8 @@ const SubsidyPage: React.FC<SubsidyPageProps> = ({ onBackToCalc }) => {
               <span className="text-htm-gold">Your Solar Power.</span>
             </h1>
             <p className="text-xl text-gray-500 leading-relaxed font-light max-w-2xl mx-auto">
-              The Indian government provides financial support for home solar. 
-              Get up to <span className="font-bold text-htm-dark">₹78,000</span> back in your bank account.
+              Under Central and State Government schemes, homeowners can avail subsidies of up to 
+              Get up to <span className="font-bold text-htm-dark"> ₹1,08,000</span> for rooftop solar installations. 
             </p>
           </div>
         </RevealOnScroll>
@@ -126,7 +126,7 @@ const SubsidyPage: React.FC<SubsidyPageProps> = ({ onBackToCalc }) => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center border-b border-white/10 pb-4">
                     <span className="font-mono text-gray-300">Up to 2 kW</span>
-                    <span className="text-2xl font-bold text-htm-gold">₹30,000 / kW</span>
+                    <span className="text-2xl font-bold text-htm-gold">₹45,000 / kW</span>
                   </div>
                   <div className="flex justify-between items-center border-b border-white/10 pb-4">
                     <span className="font-mono text-gray-300">Next 1 kW</span>
@@ -134,7 +134,7 @@ const SubsidyPage: React.FC<SubsidyPageProps> = ({ onBackToCalc }) => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-mono text-gray-300">Total Max Money</span>
-                    <span className="text-3xl font-bold text-htm-lightGreen">₹78,000</span>
+                    <span className="text-3xl font-bold text-htm-lightGreen">₹1,08,000</span>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const SubsidyPage: React.FC<SubsidyPageProps> = ({ onBackToCalc }) => {
                     <div className="bg-htm-gold p-2 rounded-full text-black"><Calendar className="w-5 h-5" /></div>
                     <div>
                         <h4 className="font-bold text-lg">Time</h4>
-                        <p className="text-sm text-gray-400">Funds are typically released 30 days after project completion.</p>
+                        <p className="text-sm text-gray-400">Funds are typically released 60 days after project completion.</p>
                     </div>
                  </div>
                  <p className="text-gray-300 italic border-l-2 border-htm-gold pl-4 text-sm leading-relaxed">

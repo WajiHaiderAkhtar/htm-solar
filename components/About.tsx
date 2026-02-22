@@ -14,7 +14,7 @@ const stats = [
   { label: 'Technical Mastery', value: '15+ Yrs', desc: 'Team Industry Exp' },
   { label: 'Track Record', value: '20 MW', desc: 'Team Installation History' },
   { label: 'Bill Savings', value: '70%', desc: 'Max Reduction' },
-  { label: 'Payback', value: '3-5 Yrs', desc: 'Fast ROI' },
+  { label: 'Payback', value: '5-7 Yrs', desc: 'Fast ROI' },
 ];
 
 const installationSteps = [
@@ -136,7 +136,7 @@ const ParallaxImage = () => {
         ref={imgRef}
         src={HERO_IMAGE_URL} 
         alt="Solar Engineering Excellence" 
-        className="absolute left-0 -top-[10%] w-full h-[120%] object-cover filter grayscale group-hover:grayscale-0 transition-[filter] duration-700 will-change-transform"
+        className="absolute left-0 -top-[10%] w-full h-[120%] "
       />
       <div className="absolute inset-0 bg-htm-dark/20 group-hover:bg-transparent transition-colors duration-500 pointer-events-none"></div>
       <div className="absolute bottom-8 left-8 bg-white p-6 max-w-sm shadow-2xl z-10">
@@ -184,7 +184,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
   }, []);
 
   return (
-    <section id={SectionId.ABOUT} className="py-32 bg-white relative">
+    <section id={SectionId.ABOUT} className="py-32 pb-14 bg-white relative">
       <CursorSpotlight color="radial-gradient(circle, rgba(234, 179, 8, 0.08) 0%, transparent 70%)" size={600} />
       
       <div className="container mx-auto px-6 relative z-10">
@@ -212,7 +212,7 @@ const About: React.FC<AboutProps> = ({ onNavigate }) => {
                             HTM Solar was founded to bring professional engineering back to the center of solar installation. We are veteran-led and expertise-driven.
                         </p>
                         <p className="text-lg text-gray-500 font-light">
-                            With a combined team history of commissioning over 20,000 kW of solar across India, we have seen where typical systems fail. We founded HTM to ensure every roof we touch meets industrial utility-scale standards.
+                            With a combined team history of commissioning over 20+ MW of solar across India, we have seen where typical systems fail. We founded HTM to ensure every roof we touch meets industrial utility-scale standards.
                         </p>
                         <div className="pt-4">
                             <button 

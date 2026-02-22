@@ -182,7 +182,7 @@ const BentoGrid: React.FC = () => {
                     </div>
                     
                     <div className="max-w-sm">
-                        <h3 className="text-3xl md:text-4xl font-display text-white mb-4 group-hover:text-htm-gold transition-colors">Solar for <br/> Your Home</h3>
+                        <h3 className="text-3xl md:text-4xl font-display text-white mb-4 group-hover:text-htm-gold transition-colors">Residential Rooftop</h3>
                         <p className="text-gray-300 font-light mb-0 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500">
                             Professional engineering with manufacturer-backed reliability.
                         </p>

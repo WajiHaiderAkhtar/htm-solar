@@ -68,7 +68,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                      </div>
                      <div className="w-px h-16 bg-white/10 hidden md:block"></div>
                      <div className="flex flex-col items-center">
-                        <span className="text-white text-4xl md:text-6xl font-display mb-1 text-center">20 MW</span>
+                        <span className="text-white text-4xl md:text-6xl font-display mb-1 text-center">20+ MW</span>
                         <span className="text-[10px] font-mono text-htm-gold uppercase tracking-widest text-center">Industry Track Record</span>
                      </div>
                 </div>
@@ -92,14 +92,14 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                         </h2>
                         <div className="space-y-8 text-lg text-gray-600 font-light leading-relaxed">
                             <p className="text-htm-dark font-medium italic text-xl border-l-4 border-htm-gold pl-6 py-2 bg-htm-gold/5 rounded-r-xl">
-                                "The professionals behind HTM Solar have oversaw the commissioning of over 20,000 kW of solar capacity across the nation. We saw a gap where sales took priority over real engineering."
+                                "The professionals behind HTM Solar have oversaw the commissioning of over 20+ MW of solar capacity across the nation. We saw a gap where sales took priority over real engineering."
                             </p>
                             
                             <p>
                                 In an industry often dominated by middlemen and outsourced labour, HTM Solar stands apart. While our brand is new, our foundations are built on 15 years of technical leadership in the energy sector. We don't believe in generic sales pitches; we believe in manual precision and on-ground accountability.
                             </p>
                             <p>
-                                <strong>Our approach is hands-on.</strong> The leadership that oversaw utility-scale power plants is the same team that supervises your installation today. We ensure every cable route is optimized and every structure is tested for durability, serving our home state of Uttar Pradesh with world-class standards.
+                                <strong>Our approach is hands-on.</strong> The leadership that oversaw utility-scale power plants is the same team that supervises your installation today. We ensure every cable route is optimized and every structure is tested for durability, serving our Country "INDIA" with world-class standards.
                             </p>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                         {[
                             { icon: HardHat, title: "Zero Outsourcing", desc: "Our core technical team handles every installation. Integrity is never contracted out." },
-                            { icon: Ruler, title: "Industrial Specs", desc: "We implement the same hot-dip galvanized mounting standards used in utility-grade parks." },
+                            { icon: Ruler, title: "Industrial Specs", desc: "Advanced grid-tied solar systems optimized for factories, warehouses, and commercial facilities." },
                             { icon: UserCheck, title: "Expert Surveys", desc: "Every roof is manually surveyed by senior technicians to identify optimal placement." },
                             { icon: Award, title: "Component Audit", desc: "We only install Tier-1 modules that have been physically inspected by our team." }
                         ].map((item, i) => (
@@ -128,7 +128,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
       {/* TECHNICAL STANDARDS */}
       <section className="py-32 bg-htm-dark text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-20 pointer-events-none">
-            <img src="https://images.unsplash.com/photo-1548337138-e87d889cc369?q=80&w=2072&auto=format&fit=crop" className="w-full h-full object-cover grayscale" />
+            <img src="https://images.unsplash.com/photo-1548337138-e87d889cc369?q=80&w=2072&auto=format&fit=crop" alt='image' className="w-full h-full object-cover grayscale" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-htm-dark via-htm-dark/80 to-htm-dark"></div>
         
@@ -169,7 +169,7 @@ const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                 <div className="w-20 h-px bg-htm-gold mx-auto mb-10"></div>
                 <h2 className="text-6xl md:text-8xl font-display text-htm-dark mb-10">Experience Clarity.</h2>
                 <p className="text-2xl text-gray-500 font-light mb-16 max-w-2xl mx-auto">
-                    Stop gambling with your energy. Partner with the team that has successfully commissioned over 20,000 kW of solar across the Indian grid.
+                    Stop gambling with your energy. Partner with the team that has successfully commissioned over 20+ MW of solar across the Indian grid.
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-8">
                     <button 

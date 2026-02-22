@@ -49,20 +49,22 @@ const Footer: React.FC<FooterProps> = ({ currentView, onNavigate }) => {
             <div>
                 <h4 className="font-bold text-htm-dark mb-4">Solutions</h4>
                 <ul className="space-y-2 text-gray-500">
-                    <li><a href={`#${SectionId.SERVICES}`} onClick={(e) => handleLinkClick(e, `#${SectionId.SERVICES}`)} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Residential Solar</a></li>
-                    <li><a href={`#${SectionId.SERVICES}`} onClick={(e) => handleLinkClick(e, `#${SectionId.SERVICES}`)} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Business & Retail</a></li>
-                    <li><a href={`#${SectionId.SERVICES}`} onClick={(e) => handleLinkClick(e, `#${SectionId.SERVICES}`)} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Industries</a></li>
+                    <li><a href={`#${SectionId.SERVICES}`} onClick={(e) => handleLinkClick(e, `#${SectionId.SERVICES}`)} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Commercial Rooftop</a></li>
+                    <li><a href={`#${SectionId.SERVICES}`} onClick={(e) => handleLinkClick(e, `#${SectionId.SERVICES}`)} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Residential Rooftop</a></li>
+                    <li><a href={`#${SectionId.SERVICES}`} onClick={(e) => handleLinkClick(e, `#${SectionId.SERVICES}`)} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Industrial Rooftop</a></li>
+                    <li><a href="#subsidy" onClick={(e) => { e.preventDefault(); onNavigate('subsidy'); }} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Ground Mounted Solar</a></li>
                     <li><a href="#subsidy" onClick={(e) => { e.preventDefault(); onNavigate('subsidy'); }} className="hover:text-htm-green transition-colors cursor-pointer block w-fit">Subsidy Assistance</a></li>
+
                 </ul>
             </div>
 
             <div>
                 <h4 className="font-bold text-htm-dark mb-4">Contact</h4>
                 <div className="space-y-2 mb-4 text-gray-500">
-                    <p>Headquarters: Lucknow, UP</p>
+                    <p>Headquarters: Plot No. 4, Kahla-Complex, Dubagga, Lucknow, Uttar Pradesh, India-226003</p>
                     <p className="text-xs uppercase tracking-widest text-htm-gold font-bold">Serving All India</p>
-                    <a href="tel:+918368813443" className="block hover:text-htm-green transition-colors w-fit">+91 83688 13443</a>
-                    <a href="mailto:info@htmsolar.com" className="block hover:text-htm-green transition-colors w-fit">info@htmsolar.com</a>
+                    <a href="tel:+918368813443" className="block hover:text-htm-green transition-colors w-fit">+91 &nbsp; 9624749697</a>
+                    <a href="mailto:info@htmsolar.com" className="block hover:text-htm-green transition-colors w-fit">support@htmsolar.com</a>
                 </div>
                 <div className="flex gap-4">
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#E1306C] transition-all duration-300 hover:scale-110 hover:-translate-y-1"><Instagram className="w-5 h-5"/></a>
