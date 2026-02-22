@@ -18,18 +18,22 @@ export const STATES_INDIA = [
 ];
 
 export const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2058&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=1974&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1545208942-e91b9a952211?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop",
-  "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?q=80&w=2070&auto=format&fit=crop"
+  "../public/image4.jpg",
+  "../public/image2.jpeg",
+  "../public/image3.jpg",
+  "../public/image5.jpg",
+  // "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop",
+  // "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2058&auto=format&fit=crop",
+  // "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?q=80&w=1974&auto=format&fit=crop",
+  // "https://images.unsplash.com/photo-1545208942-e91b9a952211?q=80&w=2070&auto=format&fit=crop",
+  // "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop",
+  // "https://images.unsplash.com/photo-1624397640148-949b1732bb0a?q=80&w=2070&auto=format&fit=crop"
 ];
 
 export const HERO_IMAGE_URL = HERO_IMAGES[0];
 
 export const SERVICE_IMAGES = {
-  residential: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2058&auto=format&fit=crop",
+  residential: "../public/image6.jpeg", 
   commercial: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop",
   maintenance: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop",
   about: "https://images.unsplash.com/photo-1605980005219-4663e2e999fb?q=80&w=2070&auto=format&fit=crop",
